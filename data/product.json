@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1",
+    "name": "Samsung Galaxy Z Flip3 5G 128GB",
+    "price": 14990,
+    "amount": 0,
+    "desc": "Galaxy Z Flip 3 sở hữu cơ cấu gập theo chiều dọc xịn sò, tạo ra chiếc smartphone khác biệt so với phần còn lại, có thể đóng lại gọn gàng khi không sử dụng để bạn thuận tiện mang theo bên mình."
+  },
+  {
+    "id": "2",
+    "name": "Samsung Galaxy A13 4GB",
+    "price": 4690,
+    "amount": 0,
+    "desc": "Nhằm mang trải nghiệm tốt hơn trên dòng sản phẩm giá rẻ, Samsung cho ra mắt Galaxy A13 4G với một hiệu năng ổn định, camera chụp ảnh sắc nét và viên pin khủng đáp ứng nhu cầu sử dụng cả ngày cho bạn cùng một mức giá trang bị cực kỳ phải chăng."
+  },
+  {
+    "id": "3",
+    "name": "Samsung Galaxy A23 4GB",
+    "price": 5690,
+    "amount": 0,
+    "desc": "Samsung Galaxy A23 4GB sở hữu bộ thông số kỹ thuật khá ấn tượng trong phân khúc, máy có một hiệu năng ổn định, cụm 4 camera thông minh cùng một diện mạo trẻ trung phù hợp cho mọi đối tượng người dùng."
+  },
+  {
+    "id": "4",
+    "name": " Samsung Galaxy S22+ 5G 128GB",
+    "price": 21990,
+    "amount": 0,
+    "desc": "Samsung Galaxy S22+ 5G 128GB được Samsung cho ra mắt với với ngoại hình không có quá nhiều thay đổi nhưng được nâng cấp đáng kể về thông số cấu hình bên trong và thời gian sử dụng, chắc hẳn sẽ mang lại những trải nghiệm thú vị dành cho bạn."
+  },
+  {
+    "id": "5",
+    "name": "Samsung Galaxy S21 FE 5G (8GB/128GB) ",
+    "price": 12990,
+    "amount": 0,
+    "desc": "Điện thoại Samsung Galaxy S21 FE 5G xuất hiện với 1 ngoại hình tinh tế, cụm camera thông minh hoạt động đầy ấn tượng và cấu hình mạnh mẽ từ chip Exynos 2100 nhà Samsung, chắc chắn sẽ thu phục cảm tình của bạn trên từng trải nghiệm."
+  },
+  {
+    "id": "603.61156",
+    "name": "iPhone 10 Pro Max 218GB",
+    "price": 120023,
+    "amount": 0,
+    "desc": "rat la dep"
+  }
+]
