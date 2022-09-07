@@ -63,10 +63,23 @@ let updateProduct = (id , name , price , amount , desc) => {
         console.log("Product Not Found !") ; 
     }
 }
+let nhapHang = (id) => {
+    let productArr = readAllData() ; 
+    let index = productArr.findIndex((product)=>{
+        return product.id === id ;
+    })
+    if(index > -1){
+        productArr[index].amount += 50 ; 
+        fs.writeFileSync("data/product.json" , JSON.stringify(productArr)) ; 
+    }else {
+        console.log("Product not found !") ; 
+    }
+}
 module.exports = {
     readAllData,
     readDetail,
     createProduct,
     deleteProduct,
-    updateProduct
+    updateProduct,
+    nhapHang
 }

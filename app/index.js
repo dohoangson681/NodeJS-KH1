@@ -1,7 +1,7 @@
 const yargs = require('yargs') ; 
 const chalk = require('chalk') ;
 const productCRUD = require('../model/productCRUD') ; 
-let {readAllData,readDetail,createProduct,deleteProduct,updateProduct} = productCRUD ; 
+let {readAllData,readDetail,createProduct,deleteProduct,updateProduct,nhapHang} = productCRUD ; 
 // create
 // test cmd : node app/index.js create
 // node app/index.js create --name "iPhone 10 Pro Max 128GB" --price "28490" --amount "0" --desc "iPhone mới kế thừa thiết kế đặc trưng từ iPhone 12 Pro Max khi sở hữu khung viền vuông vức, mặt lưng kính cùng màn hình tai thỏ tràn viền nằm ở phía trước."
@@ -101,22 +101,20 @@ yargs.command({
         
     }
 }) ;
+// nhap hang
+// command :  node app/index.js nhapHang --id "..."
+yargs.command({
+    command : "nhapHang" , 
+    builder : {
+        id : {
+            type : "string" ,
+        }
+    },
+    handler : (args) => {
+        let {id} = args ; 
+        nhapHang(id) ; 
+        
+    }
+})
 // parse()
 yargs.parse() ; 
-let myObject = {
-    id : "1" , 
-    name : "A name" , 
-    price : 1000
-}
-let id = "2" , name = "A new Name"; 
-//  let myNewObj = {...myObject , id , name} ;
-let myNewObj  = {
-    id : "1" , 
-    name : "A name" , 
-    price : 1000 , 
-    id : "3", 
-    name : "A new Name"
-}
-
-console.log(myObject) ; 
-console.log(myNewObj) ;
